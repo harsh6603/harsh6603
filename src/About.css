@@ -1,0 +1,6 @@
+.accordion-button:focus {
+    z-index: 3;
+    border: 1px solid #ffffff;
+    outline: 0;
+    box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+}

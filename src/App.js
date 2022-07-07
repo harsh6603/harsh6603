@@ -46,7 +46,7 @@ function App() {
     <Alert alert={alert}/>
     <Routes>
       <Route exact path='/' element={<TextArea mode={mode} enterAlert={enterAlert}/>}/>
-      <Route exact path='/about' element={<About/>}/>
+      <Route exact path='/about' element={<About mode={mode}/>}/>
     </Routes>
     </Router>
     </>
